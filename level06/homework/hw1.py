@@ -25,3 +25,9 @@ while sheiyvane_paroli!=correct_password:
       print("sworia")
 #4მომხმარებელს შემოატანინეთ რაიმე stringი და for ციკლის გამოყენებით დააბრუნეთ ეს სტრინგი შემოტრიალებული
 
+sityva=input("sityva")
+st=""
+for i in sityva: 
+    st+=i
+print(st[::-1])
+   
