@@ -1,51 +1,38 @@
-# მომხმარებელს შემოყავს სამნშნა რიცხვი. დათვალეთ და დაბეჭდეთ რა
-# ნაშთს გვაძლევს შემოყვანილი რიცხვი მის ციფრთა ჯამზე გაყოფისას.
-# მაგალითად, თუ მომხმარებელმა შემოიყვანა რიხვი 120, მისი ციფრთა
-# ჯამია: 1 + 2 + 0 = 3. 120 ის ნაშთი 3 ზე გაყოფისას 0 ია. ამიტომ უნდა
-# დაბეჭდოთ 0.
-
-# number=str(input("enter a number: "))
-# def function(number):
-#     count=0
-#     for i in number:
-#         count+=int(i)
-#     return int(number)%count
-# print(function(number))
+#1
+def res(num):
+    x=0
+    for i in str(num):
+        x+=int(i)
+    return num % x
+print(res(120))
 
 
-# დაწერეთ პროგრამა რომელიც შემოსულ მთელ რიცხვს გაზრდის ერთით თუ ის კენტია.
-# საბოლოოდ ორივე შემთხვევაში გამობეჭდეთ ეს რიცხვი. 
-# (თუ ამოხსნაში გამოიყენეთ if ოპერატორი მისაღებია თუმცა გირჩევთ სცადოთ ამოცანის შესრულება მისი გამოყენების გარეშეც)
+#2
+
+num=int(input("sheiyvane ricxvi"))
+if num % 2 !=0:
+    num+=1
+print("ricxvi",num)
 
 
+#3
+num=int(input("ricxvi"))
+if num % 2==0:
+    print(num+5)
+else:
+    num*3
+nashti= num%5
+print("nashti 5ze gayofisas",nashti)
 
-# number=int(input("enter a number: "))
-# def num(number):
-#     while number%2>=1:
-#         return number+1
-#     return number 
-# print(num(number))"
+#4 f''-ის გამოყენებით შექმენიტ ერთი დიდი ტექსტი სადაც შევა მომხმარებლის მიერ შეყვანილი: სახელი, გვარი, ასაკი, ქვეყანა
 
-
-# დაწერეთ პროგრამა რომელიც კლავიატურიდან შეტანილ მთელი რიცხვს გაზრდის
-# 5-ით, თუ ის ლუწია და გაზრდის 3-ჯერ, თუ კენტია, შემდეგ კი შეინახავს მათი
-# ჯამის 5-ზე გაყოფის ნაშთს და დაბეჭდავს ეკრანზე.
-
-# number=int(input("enter a number: "))
-# def func(number):
-#     while number%2==0:
-#         return number+5
-#     return (number+number*3)%5
-# print(func(number))
+name=input("zuka")
+surname=input("bichoshvili")
+age=int(input(15))
+country=input("georgia")
+print(f'gamarjoba me var{name}{surname},var{age}wlis da vcxovrob {country}-shi')
 
 
-# f''-ის გამოყენებით შექმენიტ ერთი დიდი ტექსტი სადაც შევა მომხმარებლის მიერ შეყვანილი: სახელი, გვარი, ასაკი, ქვეყანა
-# country=input("enter your country: ")
-# name=input("enter name: ")
-# surname=input("enter surname: ")
-# print(f"{country} {name} {surname}")
+# 5
 
-# ახსენით რომელი გირჩევნით და რატომ:
-# print(f'Hello {num} world')
-# f- სრინგის გამოყენება რადგან,სპეისებიც თვითონ კეთდება და მხოლოდ ორი ერთეულის გამოყენებაა საჭირო ფიგურული ფრჩხილი და ბრჭყალები, ყველაზე მოსახერხებელი გზაა
-# რომ სტრინგი და ცვლადი ერთ ტექსტში მოაქციო,ზედმეტი შრომის გარეშე
+#მე მირჩევნია f''სტრინგით რადგან ყველაზე მოსახერხებელია მას აქვს ბევრი უპირატესობა არის მარტივი და სწრაფად იკითხება შეგიძლიათ ცვლადებიც და გამოთვლებიც ჩაწეროთ {}-ში.

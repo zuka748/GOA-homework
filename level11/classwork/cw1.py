@@ -2,7 +2,8 @@
 def make_negative(number):
     if number<=0:
         return number
-    return int(f"-{number}")
+    
+    
 
 #2
 def solution(string):

@@ -24,12 +24,13 @@ def string_clean(s):
     return result
 
 #3
-
-#4
-
 def count_char_occurrences(string, char):
     count=0
     for i in string:
-        if i==char:
+        if i ==char:
             count+=1
-    return (count)   
+    return count
+
+#4
+
+ 
