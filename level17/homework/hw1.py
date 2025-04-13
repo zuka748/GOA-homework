@@ -29,7 +29,13 @@ print(manual_len([1,2,3,4,5]))
 # 4. შექმენით manual_pop ფუნქცია
 
 def manual_pop(lst2):
-    return lst2 [::-1]
+    return lst2 [:-1]
 print(manual_pop([1,2,3,4,5]))
-     
+
+
+# 5. შექმენით manual_reverse ფუნქცია
+
+def manual_reverse(l):
+     return l [::-1]
+print(manual_reverse([1,2,3,4,5]))
     
