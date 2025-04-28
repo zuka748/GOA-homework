@@ -1,5 +1,5 @@
 def six_toast(num):
-    return abs(num-6)
+    print (num-6)
 
 
 #2) შექმენით ორი ლისთი და ლუპის მეშევოებით შექმენით ახალი ლისთი რომელიც იქნება ამ ორის გაერთანება
@@ -28,3 +28,6 @@ print(res)
 
 lst1=[1,2,3,4,5]
 print(str(lst1))
+
+#5
+name ="codewa.rs"

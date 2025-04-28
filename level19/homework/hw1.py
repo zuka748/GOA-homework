@@ -19,14 +19,16 @@ def bigger_sum_in(list1,list2):
 
 # 3. შექმენით ფუნქცია რომელიც იღებ არგუმენტებად ორ ლისტს და აბრუნებს დადებითი რიცხვების რაოდენობასა და უარყოფითების ჯამს (ცალ-ცალკე).
 
-lst1=[-1,-4,5]
-res1=[]
-lst2=[2,4,-20]
-
-for i in lst1:
-    if i<0:
-        res1=sum()
-        print(res1)
+def count_positives_sum_negatives(lst1, lst2):
+    all_numbers = lst1 + lst2
+    positives = 0
+    negatives_sum = 0
+    for i in all_numbers:
+        if i > 0:
+            positives += 1
+        elif i < 0:
+            negatives_sum += i
+    return positives, negatives_sum
 
 
 # 4. შექმენით ფუნქცია რომელიც არგუმენტად იღებს ლისტს და შლის ყველა ელემენტს რომელიც უნაშთოდ იყოფა 3-ზე
