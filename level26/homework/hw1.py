@@ -13,5 +13,5 @@ def func(x,y):
         return "Math"
     if type(x) and type(y)==bool:
         return "Science"
-print(func(4.2,"zuka"))
+print(func("zuka","bitchoshvili"))
     

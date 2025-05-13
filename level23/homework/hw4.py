@@ -6,4 +6,4 @@ def func(x,y):
     else:
         return False
     
-print(func("goa",int))
+print(func("goa",str))
