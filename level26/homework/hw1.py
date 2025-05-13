@@ -7,9 +7,11 @@
 def func(x,y):
     if type(x) and type(y)==str:
         return "Literature"
-    if type(x) and type(y)==int/float:
+    if type(x) and type(y)==int:
+        return "Math"
+    if type(x) and type(y)==float:
         return "Math"
     if type(x) and type(y)==bool:
         return "Science"
-print(func(True,False))
+print(func(4.2,"zuka"))
     
