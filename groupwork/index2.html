@@ -1,0 +1,139 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Gallery - CSS Only</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Sports Gallery</h1>
+        <p>Explore the world of sports through stunning visuals</p>
+    </header>
+
+    <div class="filter-container">
+        <input type="radio" id="all" name="filter" value="all" checked>
+        <input type="radio" id="football" name="filter" value="football">
+        <input type="radio" id="basketball" name="filter" value="basketball">
+        <input type="radio" id="soccer" name="filter" value="soccer">
+        <input type="radio" id="tennis" name="filter" value="tennis">
+        <input type="radio" id="swimming" name="filter" value="swimming">
+        
+        <div class="filter-buttons">
+            <label for="all" class="filter-btn">All Sports</label>
+            <label for="football" class="filter-btn">Football</label>
+            <label for="basketball" class="filter-btn">Basketball</label>
+            <label for="soccer" class="filter-btn">Soccer</label>
+            <label for="tennis" class="filter-btn">Tennis</label>
+            <label for="swimming" class="filter-btn">Swimming</label>
+        </div>
+    </div>
+
+    <div class="gallery-container">
+        <div class="gallery">
+            <div class="gallery-item" data-category="football">
+                <div class="sport-icon"></div>
+                <img src="https://images.unsplash.com/photo-1566577739112-5180d4bf9390?w=500&h=300&fit=crop" alt="American Football">
+                <div class="gallery-overlay">
+                    <h3>American Football</h3>
+                    <p>The intensity and strategy of America's favorite sport, captured in every play.</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="basketball">
+                <div class="sport-icon"></div>
+                <img src="https://images.unsplash.com/photo-1546519638-68e109498ffc?w=500&h=300&fit=crop" alt="Basketball">
+                <div class="gallery-overlay">
+                    <h3>Basketball</h3>
+                    <p>Fast-paced action and incredible athleticism on the hardwood court.</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="soccer">
+                <div class="sport-icon"></div>
+                <img src="https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?w=500&h=300&fit=crop" alt="Soccer">
+                <div class="gallery-overlay">
+                    <h3>Soccer</h3>
+                    <p>The beautiful game that unites the world with passion and skill.</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="tennis">
+                <div class="sport-icon"></div>
+                <img src="https://images.unsplash.com/photo-1622279457486-62dcc4a431d6?w=500&h=300&fit=crop" alt="Tennis">
+                <div class="gallery-overlay">
+                    <h3>Tennis</h3>
+                    <p>Precision, power, and mental fortitude on the tennis court.</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="swimming">
+                <div class="sport-icon"></div>
+                <img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=500&h=300&fit=crop" alt="Swimming">
+                <div class="gallery-overlay">
+                    <h3>Swimming</h3>
+                    <p>Grace and power cutting through the water with perfect technique.</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="football">
+                <div class="sport-icon"></div>
+                <img src="data:image/jpeg;base64,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" alt="Football Stadium">
+                <div class="gallery-overlay">
+                    <h3>judo</h3>
+                    <p>is an unarmed modern Japanese martial art, combat sport, Olympic sport.</p>
+                </div>
+            </div>
+
+            <div class="gallery-item" data-category="basketball">
+                <div class="sport-icon"></div>
+                <img src="https://cdn.imedi.ge/new/info-imedi/G/2409/01/57/38/S_Dq-Ssn9k-ND8OD5MXICw/merab-dvalishvili-ezgif-com-webp-to-jpg-converter.jpg" alt="Basketball Court">
+                <div class="gallery-overlay">
+                    <h3>Mixed martial arts (MMA)</h3>
+                    <p>is a full-contact fighting sport based on striking and grappling.</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="soccer">
+                <div class="sport-icon"></div>
+                <img src="https://newshub.ge/uploads/files/2024/04/23/101675/sakartvelos-erovnuli-nakrebi-phekhburtshi_w_h.jpeg" alt="Soccer Action">
+                <div class="gallery-overlay">
+                    <h3>football</h3>
+                    <p>Football is a family of team sports that involve.</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="tennis">
+                <div class="sport-icon"></div>
+                <img src="https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=500&h=300&fit=crop" alt="Tennis Match">
+                <div class="gallery-overlay">
+                    <h3>Championship Point</h3>
+                    <p>The decisive moment that defines champions in tennis.</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="soccer">
+                <div class="sport-icon"></div>
+                <img src="https://images.unsplash.com/photo-1574680096145-d05b474e2155?w=500&h=300&fit=crop" alt="Soccer Goal">
+                <div class="gallery-overlay">
+                    <h3>Goal Celebration</h3>
+                    <p>The pure joy and emotion of scoring the winning goal.</p>
+                </div>
+            </div>
+
+            <div class="gallery-item" data-category="swimming">
+                <div class="sport-icon"></div>
+                <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=500&h=300&fit=crop" alt="Swimming Pool">
+                <div class="gallery-overlay">
+                    <h3>Olympic Dreams</h3>
+                    <p>Where champions are made and records are broken.</p>
+                </div>
+            </div>
+
+            <div class="gallery-item" data-category="tennis">
+                <div class="sport-icon"></div>
+                <img src="https://images.unsplash.com/photo-1554068865-24cecd4e34b8?w=500&h=300&fit=crop" alt="Tennis Court">
+                <div class="gallery-overlay">
+                    <h3>Center Court</h3>
+                    <p>The sacred ground where tennis legends are born.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

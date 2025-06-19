@@ -1,0 +1,16 @@
+.internal-style {
+    color: rgb(1, 1, 130);
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+.external-style{
+    color: #000;
+    font-size:30px;
+}
+
+.inline-style{
+    color:red;
+    font-size:20px;
+    
+}

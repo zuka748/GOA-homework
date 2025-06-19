@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #000000, #ffffff);
+  min-height: 100vh;
+  color: white;
+}
+
+.header {
+  text-align: center;
+  padding: 4rem 2rem 2rem;
+  background: rgba(0,0,0,0.2);
+  backdrop-filter: blur(10px);
+  margin-bottom: 3rem;
+}
+
+.header h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+  background: linear-gradient(45deg, #ffffff, #000000, #ffffff);
+  background-size: 200% 200%;
+  -webkit-text-fill-color: transparent;
+  animation: gradientShift 3s infinite;
+}
+
+@keyframes gradientShift {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+.header p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+.filter-container {
+  margin-bottom: 3rem;
+}
+
+.filter-container input[type="radio"] {
+  display: none;
+}
+
+.filter-buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 0 2rem;
+}
+
+.filter-btn {
+  padding: 0.8rem 1.5rem;
+  background: rgba(255,255,255,0.1);
+  border: 2px solid rgba(255,255,255,0.2);
+  color: white;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.filter-btn:hover,
+input:checked ~ .filter-buttons label {
+  background: rgba(255,255,255,0.2);
+  border-color: #fdfdfd;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.gallery-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.gallery-item {
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+  height: 300px;
+  cursor: pointer;
+  transition: all 0.4s;
+  background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  animation: slideInUp 0.6s;
+}
+
+@keyframes slideInUp {
+  from { opacity: 0; transform: translateY(30px); }
+}
+
+.gallery-item:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+}
+
+.gallery-item::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(45deg, rgba(133, 136, 133, 0.8), rgba(0, 0, 0, 0.8));
+  opacity: 0;
+  transition: opacity 0.3s;
+  z-index: 1;
+}
+
+.gallery-item:hover::before {
+  opacity: 1;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.1);
+}
+
+.gallery-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(transparent, rgba(0,0,0,0.8));
+  color: white;
+  padding: 2rem;
+  transform: translateY(100%);
+  transition: transform 0.4s;
+  z-index: 2;
+}
+
+.gallery-item:hover .gallery-overlay {
+  transform: translateY(0);
+}
+
+.gallery-overlay h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.gallery-overlay p {
+  opacity: 0.9;
+  line-height: 1.4;
+}
+
+.sport-icon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 2rem;
+  background: rgba(255,255,255,0.2);
+  padding: 0.5rem;
+  border-radius: 50%;
+  backdrop-filter: blur(10px);
+  z-index: 2;
+  transition: transform 0.3s;
+}
+
+.gallery-item:hover .sport-icon {
+  transform: rotate(360deg) scale(1.1);
+}
+
+/* Filtering */
+input[id="football"]:checked ~ .gallery-container .gallery-item:not([data-category="football"]),
+input[id="basketball"]:checked ~ .gallery-container .gallery-item:not([data-category="basketball"]),
+input[id="soccer"]:checked ~ .gallery-container .gallery-item:not([data-category="soccer"]),
+input[id="tennis"]:checked ~ .gallery-container .gallery-item:not([data-category="tennis"]),
+input[id="swimming"]:checked ~ .gallery-container .gallery-item:not([data-category="swimming"]) {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .header h1 { font-size: 2.5rem; }
+  .gallery { grid-template-columns: 1fr; }
+  .filter-buttons { flex-direction: column; align-items: center; }
+  .filter-btn { width: 200px; text-align: center; }
+}

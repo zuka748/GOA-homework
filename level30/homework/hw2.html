@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS სტილის ტიპები</title>
+
+  <!-- 1. INTERNAL CSS (შიდა სტილები) -->
+  <!-- სტილები წერია <style> ტეგში და მოქმედებს მხოლოდ ამ გვერდზე -->
+  <style>
+    .internal-example {
+      color: blue;
+      font-size: 20px;
+    }
+  </style>
+
+  <!-- 2. EXTERNAL CSS (გარე სტილები) -->
+  <!-- სტილები იმპორტირდება ცალკე .css ფაილიდან -->
+  <!-- <link rel="stylesheet" href="styles.css"> -->
+</head>
+<body>
+
+  <!-- INLINE CSS -->
+  <!-- სტილი დაწერილია პირდაპირ HTML ელემენტში style ატრიბუტით -->
+  <p style="color: red; font-weight: bold;">
+    ეს არის Inline CSS მაგალითი
+  </p>
+
+  <!-- INTERNAL CSS -->
+  <p class="internal-example">
+    ეს არის Internal CSS მაგალითი
+  </p>
+
+  <!-- EXTERNAL CSS -->
+  <!-- ამ ელემენტს იმოქმედებს სტილი მხოლოდ მაშინ, თუ დაიტვირთება გარე styles.css ფაილი -->
+  <p class="external-example">
+    ეს არის External CSS მაგალითი
+  </p>
+
+</body>
+</html>
