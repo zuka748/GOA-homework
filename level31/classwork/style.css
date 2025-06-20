@@ -1,0 +1,14 @@
+  h1 {
+    font-size: 36px;
+  }
+  .medium {
+    font-size: 20px;
+  }
+  .small {
+    font-size: 14px;
+  }
+  .box {
+    width: 200px;
+    height: 100px;
+    background-color: #ff0000;
+  }

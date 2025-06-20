@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    font-family: sans-serif; 
+    background-color: rgb(0, 0, 0);
+  }
+ h1 {
+    color: rgb(0, 152, 5);
+    background-color: rgb(28, 57, 33);
+    width: fit-content;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 20px;
+    font-style: italic;
+    transition: color 0.3s ease;
+  }
+
+  .center-box{
+    display: flex;
+  }
+  
+  h1:hover{
+    color: aqua;
+  }
+
+  h1:active{
+    color: rgb(141, 134, 134);
+  }
+ 

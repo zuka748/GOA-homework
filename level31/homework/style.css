@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .inside-list {
+    list-style-position: inside;
+    background-color: #e0f7fa;
+    padding: 10px;
+  }
+  
+  .outside-list {
+    list-style-position: outside;
+    background-color: #fce4ec;
+    padding: 10px;
+  }
+  

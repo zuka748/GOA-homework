@@ -1,0 +1,14 @@
+body {
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+.inside-list{
+    list-style-position: inside; 
+    list-style: square;
+}
+
+.outside-list{
+    list-style-position: outside;
+    list-style: circle;
+}
