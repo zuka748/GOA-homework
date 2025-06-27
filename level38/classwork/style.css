@@ -1,0 +1,22 @@
+#unique-paragraph {
+    color: #4B0082; 
+    background-color: #e0f7fa;
+    padding: 12px;
+    font-size: 18px;
+    border-left: 4px solid #4B0082;
+  }
+  
+  .styled-paragraph {
+    color: rgb(60, 179, 113); 
+    background-color: #fff8dc;
+    padding: 14px;
+    font-size: 16px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
