@@ -1,0 +1,16 @@
+p.one {
+    font-family: Arial, sans-serif;
+    font-weight: normal; 
+}
+p.two {
+    font-family: "Times New Roman", serif;
+    font-weight: bold; 
+}
+p.three {
+    font-family: "Courier New", monospace;
+    font-weight: 300; 
+}
+p.four {
+    font-family: Georgia, serif;
+    font-weight: 900; 
+}

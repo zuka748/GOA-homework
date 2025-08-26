@@ -1,0 +1,31 @@
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+  }
+  th, td {
+    border: 1px solid black;
+    padding: 12px;
+  }
+
+  
+  tr:nth-child(1) {
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+  }
+
+  tr:nth-child(2) {
+    font-family: "Times New Roman", serif;
+    font-weight: bold;
+  }
+
+  tr:nth-child(3) {
+    font-family: "Courier New", monospace;
+    font-weight: 300;
+  }
+
+  tr:nth-child(4) {
+    font-family: Georgia, serif;
+    font-weight: 900;
+  }
