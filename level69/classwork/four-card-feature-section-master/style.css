@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.texts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.texts h1{
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.texts h2{
+
+    font-weight: 900;
+    font-size: 37px;
+}
+
+.texts p{
+    text-align: center; 
+    margin-top: 15px;  
+}
+
+.all-div{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.same{
+    
+    height: 270px;
+    width: 400px;
+    box-shadow: 0px 0px 15px gray;
+    padding: 30px;
+    margin: 10px;
+    border-radius:10px ;
+
+    
+}
+
+.two-divs{
+
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.img{
+
+    margin-left: 220px;
+    padding: 30px;
+}
+
+.same div{
+
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    
+}

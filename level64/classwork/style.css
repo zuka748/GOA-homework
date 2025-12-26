@@ -1,0 +1,13 @@
+.div1 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(101, 20, 101); 
+    margin: 200px 100px;
+}
+
+.div2 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: 50px 100px 200px 30px;
+}

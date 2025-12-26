@@ -1,0 +1,47 @@
+body {
+    background: #77c991;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+  }
+  
+  .box {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+    font-size: 15px;
+    color: #000000;
+    text-align: center;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #9a8a8a;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  button {
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #0af057;
+    color: white;
+    font-size: 15px;
+    }
+  
+  button:hover {
+    background: #045215;
+  }
+  
+ 
