@@ -1,0 +1,20 @@
+.divv{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation-name: div1;
+    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes div1{
+    from{
+        background-color: red;
+    }
+
+    to{
+        background-color: blue;
+    }
+}

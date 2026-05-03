@@ -1,0 +1,15 @@
+.parrent{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    border: 10px solid red;
+    
+}
+
+.child{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+

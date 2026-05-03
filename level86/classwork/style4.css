@@ -1,0 +1,7 @@
+.div{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    transform-origin: bottom left;
+    transform: rotate(245deg);
+}

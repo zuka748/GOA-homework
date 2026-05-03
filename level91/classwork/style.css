@@ -1,0 +1,25 @@
+.div{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation-name: divv;
+    animation-delay: 5s;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+
+}
+
+@keyframes divv{
+    from{
+        background-color: yellow;
+        border-radius: 5px;
+        border: 6px solid green;
+    }
+
+    to{
+        transform: translate(200px,300px);
+        background-color: purple;
+        border: 5px yellow;
+    }
+}

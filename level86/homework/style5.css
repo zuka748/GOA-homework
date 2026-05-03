@@ -1,0 +1,7 @@
+.card{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transform-origin: top;
+    transform: rotateX(60deg);
+}

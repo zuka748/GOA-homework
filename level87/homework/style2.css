@@ -1,0 +1,12 @@
+.btn{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    color: white;
+    transition: background-color 2s, color 2s;
+}
+
+.btn:hover{
+    background-color: black;
+    color: green;
+}

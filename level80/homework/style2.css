@@ -1,0 +1,12 @@
+.header{
+    position: fixed;
+    background-color: black;
+    font-size: 100px;
+    color: white;
+}
+
+
+
+.text{
+    font-size: 50px;
+}

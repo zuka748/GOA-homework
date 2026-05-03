@@ -1,0 +1,23 @@
+.div{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation-name: divv;
+    animation-duration: 5s;
+}
+
+@keyframes divv{
+    form{
+        background-color: red;
+    }
+
+
+
+    to{
+        background-color: yellow;
+        border-radius: 50%;
+        box-shadow: 0px 0px 10px green;
+        transform: translate(400px,300px);
+        border: 2px red;
+    }
+}

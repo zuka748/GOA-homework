@@ -1,0 +1,50 @@
+.parrent{
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    grid-template-rows: 250px 250px 250px;
+}
+
+#first{
+    background-image: url(./misurina-sunset_181624-34793.avif);
+
+}
+
+#second{
+    background-image: url(./misurina-sunset_181624-34793.avif);
+}
+
+#three{
+    background-image: url(./misurina-sunset_181624-34793.avif);
+}
+
+#four{
+    background-image: url(./misurina-sunset_181624-34793.avif);
+}
+
+#five{
+    background-image: url(./misurina-sunset_181624-34793.avif);
+}
+
+#six{
+    background-image: url(./misurina-sunset_181624-34793.avif);
+}
+
+#seven{
+    background-image: url(./misurina-sunset_181624-34793.avif);
+}
+
+#eight{
+    background-image: url(./misurina-sunset_181624-34793.avif);
+}
+
+#nine{
+    background-image: url(./misurina-sunset_181624-34793.avif);
+}
+
+.same{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}

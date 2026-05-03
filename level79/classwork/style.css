@@ -1,0 +1,42 @@
+.parent {
+    width: 500px;
+    height: 500px;
+    border: 2px solid red;
+    position: relative; 
+}
+
+.pirveli{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    top: 0px;
+    right: 0px;
+    position: absolute;
+}
+
+.meore{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    bottom: 0px;
+    right: 0px;
+    position: absolute;
+}
+
+.mesame{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    bottom: 0px;
+    left: 0px;
+    position: absolute;
+}
+
+.meotxe{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+}

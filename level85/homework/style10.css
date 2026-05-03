@@ -1,0 +1,6 @@
+div{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(8, 0, 255);
+    transform: scale(1.5);
+}

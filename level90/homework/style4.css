@@ -1,0 +1,19 @@
+.div{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    animation-duration: 2s;
+    animation-name: divv;
+    animation-iteration-count: 5;
+}
+
+@keyframes divv{
+
+    form{
+        transform: rotate(0deg);
+    }
+
+    to{
+        transform: rotate(360deg);
+    }
+}

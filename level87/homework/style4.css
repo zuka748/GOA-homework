@@ -1,0 +1,44 @@
+.div1{
+    background-color: #ff0000;
+    width: 200px;
+    height: 200px;
+    transition: ease 4s;
+}
+
+.div1:hover{
+    width: 400px;
+}
+
+.div2{
+    background-color: rgb(38, 255, 0);
+    width: 200px;
+    height: 200px;
+    transition: linear 4s;
+}
+
+.div2:hover{
+    width: 400px;
+}
+
+.div3{
+    background-color: rgb(0, 247, 255);
+    width: 200px;
+    height: 200px;
+    transition: ease-in 4s;
+}
+
+.div3:hover{
+    width: 400px;
+}
+
+
+.div4{
+    background-color: rgb(255, 166, 0);
+    width: 200px;
+    height: 200px;
+    transition: ease-out 4s;
+}
+
+.div4:hover{
+    width: 400px;
+}

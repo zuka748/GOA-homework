@@ -1,0 +1,10 @@
+.card{
+    width: 300px;
+    height: 200px;
+    background-color:lightblue;
+}
+
+.card:hover{
+    transform: translateY(-20px);
+    box-shadow:20px 20px 20px 20px black;
+}

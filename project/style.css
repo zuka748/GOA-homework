@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background-color: #000;
+}
+
+
+
+.header nav a {
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    margin-left:20px ;
+}
+
+
+.header nav a:hover{
+    text-decoration: underline;
+}
+
+.header h1{
+    color: white;
+    font-size: 60px;
+   
+}
+
+.name{
+    height: 90vh;
+    background: url(./wp2984098.jpg); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.name h1{
+    font-size: 100px;
+    color: white;
+}
+
+.cars{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 30px;
+    padding: 60px;
+    flex-wrap: wrap;
+    
+}
+
+.card{
+    width: 720px;
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    text-align: center;
+}
+
+.card img{
+    width: 100%;
+    height: 270px;
+    object-fit: cover;
+}
+
+
+.card h2{
+    margin: 15px 0 5px;
+    font-size: 30px;
+}
+
+.card p{
+    color: #555;
+    margin-bottom: 15px;
+}
+
+
+.card button{
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    transition: 0.3s;
+    font-size: 20px;
+}
+
+.card button:hover{
+    background-color: #444;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,15 @@
+.pirveli{
+    background-color: red;
+    position: relative;
+    left: 50px;  
+    bottom: 60px;   
+    width: 150px;
+    height: 150px;
+    margin-bottom: 40px;
+}
+
+.meore{
+    background-color: blue;
+    width: 150px;
+    height: 150px;   
+}

@@ -1,0 +1,27 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: rgb(24, 47, 68);
+    position: fixed;
+    display: flex;
+    align-items: center;
+    padding: 20px 60px;
+    width: 100%;
+
+}
+
+.header nav a {
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    margin-left:30px ;
+}
+
+
+.texts{
+    font-size: 50px;
+}

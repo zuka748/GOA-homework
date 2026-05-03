@@ -1,0 +1,19 @@
+.div{
+    width: 200px;
+    height: 200ex;
+    background-color: red;
+    animation-name: divv;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: 7;
+}
+
+@keyframes divv{
+    from{
+        transform: scale(0.3);
+    }
+
+    to{
+        transform: scale(2);
+    }
+}

@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+.sky{
+    width: 100%;
+    height: 200px;
+    background-color: skyblue;
+    position: absolute;
+    
+}
+
+.sun{
+    position: relative;
+    background-color: yellow;
+    border-radius: 50%;
+    animation: sun1 3s infinite alternate;
+}
+
+@keyframes sun1{
+    0%{
+        box-shadow: 0px yellow;
+        width: 100px;
+        height: 100px;
+    }
+
+    100%{
+        box-shadow: 0 0 100px yellow;
+        width: 150px;
+        height: 150px;
+    }
+}
+
+.bird{
+    width: 20px;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+    
+}
+
+.bird1{
+    top: 150px;
+    left:100px;
+    animation: brd 5s infinite alternate;
+
+}
+
+.building{
+    width: 200px;
+    height: 500px;
+    background-color: rgb(123, 112, 186);
+    position: absolute;
+    bottom: 0px;
+    right: 200px;
+    animation: vardna 7s  5s forwards;
+}
+
+@keyframes vardna{
+    0%{
+        transform: rotate(0);
+
+    }
+ 
+    100%{
+        transform: rotate(90deg);
+    }
+}
+
+.window{
+    width: 30px;
+    height: 20px;
+    background-color: black;
+   
+}
+
+.plane{
+    width: 80px;
+    height: 5px;
+    animation: pln 6s linear forwards;
+}
+
+@keyframes pln{
+    0%{
+        transform: translateX(0px);
+    }
+
+    50%{
+        transform: translateX(300px);
+    }
+
+    100%{
+        transform: translateX(500px);
+    }
+}

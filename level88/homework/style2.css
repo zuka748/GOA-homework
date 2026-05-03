@@ -1,0 +1,17 @@
+.btn{
+    background-color: blue;
+    color: blueviolet;
+    width: 200px;
+    height: 200px;
+    transition: 5s ;
+}
+
+.btn:hover{
+    transform: rotate(5deg);
+    color: red;
+    
+}
+
+.btn:active{
+    width: 100%;
+}

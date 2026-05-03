@@ -1,0 +1,28 @@
+.div1{
+    background-image: url(./background.jpeg);
+    width: 500px;
+    height: 500px;
+    background-repeat: repeat;
+}
+
+.div2{
+    background-image: url(./background.jpeg);
+    width: 500px;
+    height: 500px;
+    background-repeat:no-repeat;
+}
+
+.div3{
+    background-image: url(./background.jpeg);
+    width: 500px;
+    height: 500px;
+    background-repeat: repeat-x;
+}
+
+.div4{
+    background-image: url(./background.jpeg);
+    width: 500px;
+    height: 500px;
+    background-repeat: repeat-y;
+}
+

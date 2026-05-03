@@ -1,0 +1,142 @@
+.gza{
+    width: 100%;
+    height: 150px;
+    background-color: gray;
+    position: absolute;
+    bottom: 90px;
+}
+
+.img{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    bottom: 90px; 
+    animation: police 10s 2s  forwards;
+
+}
+
+@keyframes police{
+    0%{
+        transform: translateX(-500px);
+    }
+
+    40%{
+        transform: translateX(450px);
+    }
+
+    60%{
+        transform: translateX(450px);
+    }
+
+    80%{
+        transform: translateX(450px);
+    } 
+
+
+    100%{
+        transform: translateX(1000px);https://discordapp.com/channels/1076577844475482142/1355570506845389050/1481353254783946773
+    }
+}
+
+.img1{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    top: 70px;
+    
+}
+
+.brb1{
+    width: 70px;
+    height: 70px;
+    
+}
+
+.img2{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    top: 70px;
+    
+}
+
+.light{
+    width: 50px;
+    height: 320px;
+    background-color: gray;
+    position: absolute;
+    bottom: 230px;
+    right: 900px;
+    border-radius: 30px;
+
+}
+
+.red{
+    border-radius: 50%;
+    background-color: rgb(248, 197, 197);
+    width: 50px;
+    height: 50px;
+    transform: translate(740px, 170px);
+    animation: redd 4s forwards;
+}
+
+@keyframes redd{
+    0%{
+        background-color: rgb(251, 195, 195);
+    }
+
+    100%{
+        background-color: red;
+        box-shadow:0px 0px 20px red;
+    }
+}
+
+.yellow{
+    border-radius: 50%;
+    background-color: rgb(245, 245, 172);
+    width: 50px;
+    height: 50px;
+    transform: translate(740px, 180px);
+    animation: yelloww 4s 4s forwards;
+}
+
+@keyframes yelloww{
+    0%{
+        background-color: lightyellow;
+    }
+
+    100%{
+        background-color: yellow;
+        box-shadow: 0px 0px 20px yellow;
+        
+    }
+}
+
+.green{
+    border-radius: 50%;
+    background-color: rgb(191, 255, 191);
+    width: 50px;
+    height: 50px;
+    transform: translate(740px, 190px);
+    animation: greenn 4s 6s forwards;
+}
+
+@keyframes greenn{
+    0%{
+        background-color: rgb(181, 244, 181);
+    }
+
+    100%{
+        background-color: green;
+        box-shadow: 0px 0px 20px green;
+        
+    }
+}
+
+
+.men{
+    width: 10px;
+    height: 10px;
+    
+    
+}

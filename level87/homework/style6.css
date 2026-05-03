@@ -1,0 +1,10 @@
+.div{
+    border: 4px solid red;
+    height: 400px;
+    width: 400px;
+    transition: border 2s;
+}
+
+.div:hover{
+    border:8px solid rgb(255, 0, 221);
+}

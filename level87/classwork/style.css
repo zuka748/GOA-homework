@@ -1,0 +1,14 @@
+.div{
+    width: 200px;
+    height: 200px;
+    background-color: #ff0000;
+    transition: width 3s, background-color 5s, border 1s;
+    transition-delay: 3s;
+}
+
+
+.div:hover{
+    width: 300px;
+    background-color: purple;
+    border: yellow;
+}

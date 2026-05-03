@@ -1,0 +1,9 @@
+.div{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+}
+
+.div:hover{
+    transform: scale(1.2);
+}

@@ -1,0 +1,11 @@
+.div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: width 1s, bacground-color 1s;
+}
+
+.div:hover{
+    width: 300px;
+    background-color: yellow;
+}

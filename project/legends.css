@@ -1,0 +1,51 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background-color: #000;
+}
+
+.header img{
+    width: 200px;
+    height: 200px;
+}
+
+.header nav a {
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    margin-left:20px ;
+    
+}
+
+.header nav a:hover{
+    text-decoration: underline;
+}
+
+.header h1{
+    color: white;
+    font-size: 60px;
+}
+
+
+.legends{
+    width: 720px;
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.legends p{
+    font-size: 25px;
+}
